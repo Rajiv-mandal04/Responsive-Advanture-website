@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel</title>
+    <link rel="stylesheet" href="w.css">
+</head>
+<body>
+    <!--Navbar-->
+    <nav class="navbar">
+        <h1 class="logo">ADVENTURE</h1>
+        <ul class="nav-links">
+            <li class="active"><a href="#"></a>Home</li>
+            <li><a href="#"></a>Tours</li>
+            <li><a href="#"></a>Explore</li>
+            <li><a href="#"></a>About</li>
+            <li class="ctn"><a href="#"></a>Contact</li>
+        </ul>
+        <img src="menu-btn.png" alt="" class="menu-btn">
+    </nav>
+    <header>
+        <div class="header-content">
+            <h2>Explore The Shy Nature</h2>
+            <div class="line"></div>
+            <h1>WONDERFUL GIFT</h1>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </header>
+
+    <!--Event-->
+    <section class="events">
+        <div class="title">
+            <h1>Upcoming Events</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="./img/img1.png" alt="">
+                <h4>Everst camp Trek</h4>
+                <p>Embark on the legendary Everest Base Camp Trek and experience the breathtaking beauty of the Himalayas up close.  </p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col">
+                <img src="./img/img2.png" alt="">
+                <h4>Walking Holidays</h4>
+                <p>Discover hidden gems, stunning landscape, and culture treasures with every step on your walking holiday. </p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="explore">
+       <div class="explore-content">
+        <h1>EXPLORE THE WORLD</h1>
+        <div class="line"></div>
+        <p>Step into a journey where every sunrise brings a new view and every trail leads to unforgettable memories. Explore the world at your pace - <i> walk its paths, meet its people, taste its flavors, and embrace the stories that make each destination unique.</i></p>
+        <a href="#" class="ctn">Learn More</a>
+
+       </div>
+    </section>
+
+    <section class="tours">
+        <div class="row">
+            <div class="col content-col">
+                <h1>UPCOMING TOURS & DESTINATION</h1>
+                <div class="line"></div>
+                <P>Plan ahead, pack your bags, and join us on unforgettable journeys across the world's most beautiful places. </P>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col image-col">
+                <div class="image-gallery">
+                    <img src="img/img3.png" alt="">
+                    <img src="img/img4.png" alt="">
+                    <img src="img/img5.png" alt="">
+                    <img src="img/img6.png" alt="">
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="footer">
+        <p>Fifth Avenue, SV 56479, silicon valley, USA | Phone: 800-123-456 | Email: Raaziv@gmail.com</p>
+        <p>Copyright © 2025 outdoor Adventure</p>
+    </section>
+    <script>
+        const menuBtn = document.querySelector('.menu-btn');
+        const navlinks = document.querySelector('.nav-links');
+
+        menuBtn.addEventListener('click',()=>{
+            navlinks.classList.toggle('mobile-menu');
+        })
+        
+    </script>
+</body>
+</html>
